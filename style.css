@@ -851,7 +851,7 @@ margin: auto;
   max-width: 80vw;
   border: solid rgb(196, 196, 196) 1px;
   grid-column: span 2;
-  background-image: url("./assets/b1.png");
+  background-image: url("./assets/b1.PNG");
   background-size: 100% 100%;
   display: flex;
   justify-self: center;
@@ -884,7 +884,7 @@ margin: auto;
 
 
 .portraited{
-  background-image: url("./assets/a1.png");
+  background-image: url("./assets/a1.PNG");
 
   border: solid rgb(196, 196, 196) 1px;
   height: 150px;
@@ -899,7 +899,7 @@ margin: auto;
   position: relative;
   border: solid rgb(196, 196, 196) 1px;
   height: 60px;
-  background-image: url("./assets/c1.png");
+  background-image: url("./assets/c1.PNG");
   background-size: 100% 100%;
 
 
@@ -912,16 +912,18 @@ margin: auto;
 
   margin-bottom: 10%;
   margin-right: 10%;
-
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  justify-self: center;
+  align-items: center;
+  align-self: center;
 
 
 }
 .bordered-thing img{
 height:100%;
-display: flex;
-justify-items: center;
-justify-content: center;
-justify-self: center;
+
 }
 
 
@@ -984,7 +986,7 @@ padding: 1.5em;
 
 #bigport{
   border: solid rgb(196, 196, 196) 1px;
-  background-image: url("./assets/maspahaba.png");
+  background-image: url(./assets/maspahaba.PNG);
  width: 90%;
   min-width: 1px;
   background-size: cover;
@@ -994,7 +996,7 @@ padding: 1.5em;
 
 #landsmall{
   border: solid rgb(196, 196, 196) 1px;
-  background-image: url("./assets/lands.png");
+  background-image: url(./assets/lands.PNG);
   background-size: 100% 100%;
 }
 #project2section2{
@@ -1005,7 +1007,7 @@ padding: 1.5em;
 
 #bigport2{
   border: solid rgb(196, 196, 196) 1px;
-  background-image: url("./assets/pahaba.png");
+  background-image: url(./assets/pahaba.PNG);
   background-size: 100% 100%;
  
 }
@@ -1045,6 +1047,7 @@ padding: 1.5em;
   max-width: 100%;
   overflow: hidden;
   transform: translateY(30%);
+  margin-top: 30vh;
 }
 
 
